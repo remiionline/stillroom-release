@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in Stillroom didn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test Stillroom! The more of this you can fill in, the faster it gets fixed.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you were doing, what you expected, and what happened instead.
+      placeholder: "I dragged three images onto the Cabins folder. I expected them to move, but…"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce (if you can)
+      placeholder: |
+        1. Open a library
+        2. …
+  - type: input
+    id: version
+    attributes:
+      label: Stillroom version
+      description: Shown at the bottom of the Settings menu (sliders icon), e.g. "Stillroom 0.3.0 beta".
+      placeholder: "0.3.0 beta"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Roughly how many items are in the library?
+      options:
+        - Under 1,000
+        - 1,000 – 10,000
+        - 10,000 – 50,000
+        - Over 50,000
+  - type: dropdown
+    id: location
+    attributes:
+      label: Where is the library stored?
+      options:
+        - On this PC (local drive)
+        - In a cloud-synced folder (OneDrive, Dropbox, Google Drive, iCloud…)
+        - On a network drive or NAS
+        - On an external / USB drive
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file
+      description: |
+        In Stillroom: Settings (sliders icon) → **Show log file**, then drag `stillroom.log` here.
+        It records errors and may include file and folder names, but never image contents or notes.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: Drag images here if they help show the problem.
