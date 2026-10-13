@@ -11,7 +11,10 @@
   <a href="https://stillroom.cc">stillroom.cc</a>
 </p>
 
-![Stillroom showing a library of engravings and celestial charts, with folders, tags and collections in the sidebar](assets/stillroom-board.jpg)
+![Stillroom showing a library of engravings and celestial charts: folders, tags and collections in the sidebar, and four references gathered in the Lightbox tray on the right](assets/stillroom-lightbox.jpg)
+
+> **New in 0.4.0: the Lightbox.** Gather references in a tray, then float them above
+> any app while you work. See the [changelog](CHANGELOG.md) for everything new.
 
 ---
 
@@ -31,6 +34,12 @@ upload anything, and works offline.
 
 ## Features
 
+**The Lightbox** (new in 0.4.0)
+- A tray on the right edge of the window. Drag images in from any board, or right-click → **Add to Lightbox**.
+- **Show on screen** floats each image in its own small window above every other app, so it stays in view while you paint, model or design.
+- Drag to move. Drag the corner or scroll to resize, keeping the proportions. Hover for an opacity slider so the work underneath shows through.
+- **Lock** with the button or **Ctrl+Alt+L** from any app: images stay put and clicks pass straight through to the app underneath.
+
 **Your folders are the library**
 - Any folder becomes a library; its subfolders are boards. Keep several libraries open at once.
 - Create, rename, move and delete folders from inside Stillroom; the changes happen on disk.
@@ -40,12 +49,11 @@ upload anything, and works offline.
 - Tags with suggestions, notes that save as you type, author credits, and favorites.
 - Collections group references from different folders without moving or copying files.
 - Drag items into folders and collections, or drag to arrange them in your own order.
-- Multi-select for bulk tagging and moving, and **Ctrl+Z** to undo.
+- Multi-select for bulk tagging and moving, right-click menus, and **Ctrl+Z** to undo.
 
 **Find**
 - Search titles, authors, notes and tags. Type `#tag` to match tags only.
 - Include subfolders, sort several ways, resize thumbnails.
-- Find duplicate files, even when they have different names.
 
 **View**
 - A full viewer with zoom, pan, arrow-key browsing and each image's colour palette.
@@ -90,8 +98,9 @@ This is a beta, and it works with real files on your disk.
 - **Deleting** from The Cellar moves the file to the Recycle Bin and removes its
   tags and notes. On network drives and some external drives, Windows skips the
   Recycle Bin, so those deletes are permanent.
-- **No automatic updates yet.** Watch this page, or click **Watch → Custom → Releases**
-  (top right) to be notified. Installing a new version keeps your libraries, tags and notes.
+- **Updates.** From 0.4.0, Stillroom checks for new versions and installs them when you
+  agree (or use **Settings → Check for updates…**). If you're on 0.3.0, install 0.4.0 once
+  by hand. Updating always keeps your libraries, tags and notes.
 
 ## FAQ
 
@@ -104,7 +113,9 @@ In a hidden `.stillroom` folder inside each library, next to your images, so the
 travel with the folder. Deleting that folder removes the tags and notes, never the images.
 
 **Does it upload anything or need the internet?**
-No. Stillroom works fully offline and has no account. Nothing leaves your computer.
+No. Stillroom works fully offline and has no account, no analytics and no crash
+reporting. Nothing about your images, tags or notes leaves your computer. The only
+connection it makes (from 0.4.0) is a check here on GitHub for a newer version.
 
 **Which file types are supported?**
 PNG, JPEG, WebP, GIF, BMP, AVIF, SVG and ICO images, plus MP4, WebM, M4V, OGV,
