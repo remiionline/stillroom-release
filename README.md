@@ -11,7 +11,7 @@
   <a href="https://stillroom.cc">stillroom.cc</a>
 </p>
 
-![Stillroom showing a library of engravings and celestial charts: folders, tags and collections in the sidebar, and four references gathered in the Lightbox tray on the right](assets/stillroom-lightbox.jpg)
+![The Lightbox: four reference images floating over Krita while an etching is open on the canvas. One reference is faded so the canvas shows through it](assets/stillroom-lightbox-krita.jpg)
 
 > **New in 0.4.0: the Lightbox.** Gather references in a tray, then float them above
 > any app while you work. See the [changelog](CHANGELOG.md) for everything new.
@@ -40,6 +40,8 @@ upload anything, and works offline.
 - Drag to move. Drag the corner or scroll to resize, keeping the proportions. Hover for an opacity slider so the work underneath shows through.
 - **Lock** with the button or **Ctrl+Alt+L** from any app: images stay put and clicks pass straight through to the app underneath.
 
+![The Lightbox tray on the right of the Stillroom window, holding four references gathered from the board](assets/stillroom-lightbox-tray.jpg)
+
 **Your folders are the library**
 - Any folder becomes a library; its subfolders are boards. Keep several libraries open at once.
 - Create, rename, move and delete folders from inside Stillroom; the changes happen on disk.
@@ -51,25 +53,34 @@ upload anything, and works offline.
 - Drag items into folders and collections, or drag to arrange them in your own order.
 - Multi-select for bulk tagging and moving, right-click menus, and **Ctrl+Z** to undo.
 
+![A library of engravings and charts: folder tiles, cards with authors and tags, and the sidebar with libraries, collections and tags](assets/stillroom-board.jpg)
+
 **Find**
 - Search titles, authors, notes and tags. Type `#tag` to match tags only.
 - Include subfolders, sort several ways, resize thumbnails.
+
+![A tag view showing everything tagged "celestial" across folders](assets/stillroom-tag.jpg)
 
 **View**
 - A full viewer with zoom, pan, arrow-key browsing and each image's colour palette.
 - Video playback, with first-frame thumbnails.
 
+![The viewer: an engraving on the left, with its tags, notes, colour palette and file details on the right](assets/stillroom-viewer.jpg)
+
 **The Cellar**
 - Set media aside instead of deleting it. It leaves boards and search but keeps its tags and notes.
 - Restore it later, or delete it to the Recycle Bin.
+
+![The Cellar: two set-aside images, with Restore and Delete buttons on hover](assets/stillroom-cellar.jpg)
 
 **Built for big collections**
 - Tested with 30,000-item libraries. Thumbnails are made in the background.
 - Dark, light, or match-your-system theme.
 
-![The viewer: an engraving on the left, with its tags, notes, colour palette and file details on the right](assets/stillroom-viewer.jpg)
-
-![A tag view showing everything tagged "celestial" across folders](assets/stillroom-tag.jpg)
+<p>
+  <img src="assets/stillroom-light.jpg" width="49%" alt="The board in the light theme">
+  <img src="assets/stillroom-viewer-light.jpg" width="49%" alt="The viewer in the light theme">
+</p>
 
 ## Install
 
@@ -146,6 +157,7 @@ The full list of open-source licenses is in the app under **Settings → Third-p
 The artworks in these screenshots are public-domain works from
 [The Metropolitan Museum of Art](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access)
 and [Cooper Hewitt](https://www.cooperhewitt.org/open-access-at-cooper-hewitt/) open-access collections.
+The Lightbox screenshot shows the free painting app [Krita](https://krita.org).
 
 ---
 
