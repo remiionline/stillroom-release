@@ -11,7 +11,11 @@
   <a href="https://stillroom.cc">stillroom.cc</a>
 </p>
 
-![The Lightbox: four reference images floating over Krita while an etching is open on the canvas. One reference is faded so the canvas shows through it](assets/stillroom-lightbox-krita.jpg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stillroom-hero-dark.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stillroom-hero-light.jpg">
+  <img src="assets/stillroom-hero-dark.jpg" alt="Stillroom: a library of engravings and celestial charts, with folders, tags and collections in the sidebar and four references gathered in the Lightbox tray">
+</picture>
 
 > **New in 0.5.0:** copy images straight into other apps, Spacebar quick look, a Source
 > link for every image, and search by colour. Since 0.4.0: the **Lightbox**, which floats your
@@ -40,6 +44,8 @@ upload anything, and works offline.
 - **Show on screen** floats each image in its own small window above every other app, so it stays in view while you paint, model or design.
 - Drag to move. Drag the corner or scroll to resize, keeping the proportions. Hover for an opacity slider so the work underneath shows through.
 - **Lock** with the button or **Ctrl+Alt+L** from any app: images stay put and clicks pass straight through to the app underneath.
+
+![The Lightbox: four reference images floating over Krita while an etching is open on the canvas. One reference is faded so the canvas shows through it](assets/stillroom-lightbox-krita.jpg)
 
 ![The Lightbox tray on the right of the Stillroom window, holding four references gathered from the board](assets/stillroom-lightbox-tray.jpg)
 
@@ -78,7 +84,8 @@ upload anything, and works offline.
 
 **The Cellar**
 - Set media aside instead of deleting it. It leaves boards and search but keeps its tags and notes.
-- Restore it later, or delete it to the Recycle Bin.
+- Every library has its own Cellar, kept inside that library's folder, so set-aside images stay with their library. The Cellar in the sidebar shows them all together.
+- Restore it later, back into its own library, or delete it to the Recycle Bin.
 
 ![The Cellar: two set-aside images, with Restore and Delete buttons on hover](assets/stillroom-cellar.jpg)
 
