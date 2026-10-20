@@ -3,6 +3,24 @@
 All notable changes to Stillroom. Downloads are on the
 [releases page](https://github.com/remiionline/stillroom-release/releases).
 
+# Stillroom 0.5.0 — 2026-10-19
+
+## New
+- Copy image: press Ctrl+C on an image (or use "Copy image" in its menu or the viewer) and paste it straight into Krita, Photoshop, a chat or anywhere else.
+- Quick look: press Space on an image to open it in the viewer, and Space again to close it.
+- Source: each image has a Source field in the viewer for where it came from. Web addresses get a button to open them, and "Open source link" appears in the image's menu.
+- Search by colour: the palette button next to search filters the view to images whose main colours match the one you pick. Choose a preset or any colour.
+- Shift-click a colour in the viewer's palette to find other images with that colour.
+
+## Improved
+- Search also looks in each image's source.
+- Changing an image's source can be undone with Ctrl+Z.
+
+## Known issues
+- The first colour search in a large library takes a while, because Stillroom works out the colours of images you haven't opened yet. Matches appear as it goes, and a note beside the filter shows how many images are left.
+- Colour search goes by an image's main colours, so a small accent (a red flower on a mostly white page) doesn't count as a match.
+- Copy image works for PNG, JPEG, WebP, GIF and BMP images. AVIF, SVG and ICO can't be copied yet.
+
 # Stillroom 0.4.0 — 2026-10-12
 
 ## New

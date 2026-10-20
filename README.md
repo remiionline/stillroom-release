@@ -13,8 +13,9 @@
 
 ![The Lightbox: four reference images floating over Krita while an etching is open on the canvas. One reference is faded so the canvas shows through it](assets/stillroom-lightbox-krita.jpg)
 
-> **New in 0.4.0: the Lightbox.** Gather references in a tray, then float them above
-> any app while you work. See the [changelog](CHANGELOG.md) for everything new.
+> **New in 0.5.0:** copy images straight into other apps, Spacebar quick look, a Source
+> link for every image, and search by colour. Since 0.4.0: the **Lightbox**, which floats your
+> references above any app. See the [changelog](CHANGELOG.md) for everything.
 
 ---
 
@@ -34,7 +35,7 @@ upload anything, and works offline.
 
 ## Features
 
-**The Lightbox** (new in 0.4.0)
+**The Lightbox**
 - A tray on the right edge of the window. Drag images in from any board, or right-click → **Add to Lightbox**.
 - **Show on screen** floats each image in its own small window above every other app, so it stays in view while you paint, model or design.
 - Drag to move. Drag the corner or scroll to resize, keeping the proportions. Hover for an opacity slider so the work underneath shows through.
@@ -49,23 +50,31 @@ upload anything, and works offline.
 
 **Organize**
 - Tags with suggestions, notes that save as you type, author credits, and favorites.
+- A **Source** for every image: paste the link it came from and open it again with one click.
 - Collections group references from different folders without moving or copying files.
 - Drag items into folders and collections, or drag to arrange them in your own order.
 - Multi-select for bulk tagging and moving, right-click menus, and **Ctrl+Z** to undo.
+- **Copy image** (Ctrl+C) puts the picture on the clipboard, ready to paste into Krita, Photoshop or a chat.
 
 ![A library of engravings and charts: folder tiles, cards with authors and tags, and the sidebar with libraries, collections and tags](assets/stillroom-board.jpg)
 
+![The right-click menu on an image, with Add to Lightbox, Copy image and Open source link](assets/stillroom-right-click.jpg)
+
 **Find**
 - Search titles, authors, notes and tags. Type `#tag` to match tags only.
+- **Search by colour:** pick a colour and see the images whose main colours match.
 - Include subfolders, sort several ways, resize thumbnails.
+
+![Search by colour: "Black" picks out the three darkest prints in the library](assets/stillroom-colour-search.jpg)
 
 ![A tag view showing everything tagged "celestial" across folders](assets/stillroom-tag.jpg)
 
 **View**
 - A full viewer with zoom, pan, arrow-key browsing and each image's colour palette.
+- **Quick look:** press Space on an image to open it, and Space again to close it.
 - Video playback, with first-frame thumbnails.
 
-![The viewer: an engraving on the left, with its tags, notes, colour palette and file details on the right](assets/stillroom-viewer.jpg)
+![The viewer: Dürer's Rhinoceros, with its tags, its source link, colour palette and file details on the right](assets/stillroom-viewer-source.jpg)
 
 **The Cellar**
 - Set media aside instead of deleting it. It leaves boards and search but keeps its tags and notes.
