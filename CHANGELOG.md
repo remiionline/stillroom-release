@@ -3,6 +3,26 @@
 All notable changes to Stillroom. Downloads are on the
 [releases page](https://github.com/remiionline/stillroom-release/releases).
 
+# Stillroom 0.9.0 — 2026-11-09
+
+## New
+- Drag images out: drag a card past the edge of the window, or drag the picture in the viewer, and drop it into Krita, Photoshop, Blender, a chat or a folder. Several selected images go together.
+- Drop images from your web browser: drag an image from a web page into Stillroom and it's saved into the current folder, with the page it came from filled in as its Source.
+- Grayscale and flip in the viewer: press G or H (or use the buttons under the image) to check values and composition. They stay on while you browse.
+- Grayscale and flip in The Lightbox: each floating image has its own buttons when you hover over it, and remembers its setting.
+- Export library data: right-click a library (or open Settings) and choose "Export library data…" to save its tags, notes, authors, sources, favorites and collections to one file you can keep, read or use elsewhere.
+
+## Improved
+- Libraries in OneDrive, Dropbox, Google Drive or iCloud: Stillroom recognises them, explains once what to keep in mind, and shows a cloud next to the library's name.
+- Stillroom warns you if a library is open on another PC at the same time, before tags and notes can clash.
+- Images that are only in the cloud (not downloaded) show a cloud instead of a preview, so Stillroom never downloads your whole library just to make previews. Opening an image downloads it as usual.
+- Search waits for a short pause in typing in big libraries, so typing stays smooth.
+- The Lightbox opacity slider now goes all the way to fully see-through. A faded-out image can still be grabbed and brought back.
+
+## Known issues
+- Some websites don't hand over the image itself when you drag it (only a link). Stillroom then can't save it; save the image first and drop the file instead.
+- Colour search skips images that are only in the cloud until they've been downloaded.
+
 # Stillroom 0.5.0 — 2026-10-19
 
 ## New

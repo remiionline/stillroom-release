@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/remiionline/stillroom-release/releases/latest"><strong>⬇ Download the latest beta for Windows</strong></a>
+  <a href="https://github.com/remiionline/stillroom-release/releases/latest"><strong>⬇ Download Stillroom for Windows</strong></a>
   &nbsp;·&nbsp; Windows 10 / 11 (64-bit) &nbsp;·&nbsp; Free<br>
   <a href="https://stillroom.cc">stillroom.cc</a>
 </p>
@@ -17,9 +17,10 @@
   <img src="assets/stillroom-hero-dark.jpg" alt="Stillroom: a library of engravings and celestial charts, with folders, tags and collections in the sidebar and four references gathered in the Lightbox tray">
 </picture>
 
-> **New in 0.5.0:** copy images straight into other apps, Spacebar quick look, a Source
-> link for every image, and search by colour. Since 0.4.0: the **Lightbox**, which floats your
-> references above any app. See the [changelog](CHANGELOG.md) for everything.
+> **New in 0.9.0, the release candidate for 1.0:** drag images out into other apps, drop
+> images in from your browser (with the page saved as their Source), grayscale and flip,
+> export your library data, and libraries in cloud folders. See the [changelog](CHANGELOG.md)
+> for everything.
 
 ---
 
@@ -34,15 +35,15 @@ images stay ordinary files, and you can still open them in Explorer.
 Everything stays on your computer. Stillroom doesn't need an account, doesn't
 upload anything, and works offline.
 
-> **Beta:** Stillroom is in public beta. Please read [Before you start](#before-you-start)
-> before adding a collection you care about.
+> **Release candidate:** 0.9.0 is the last step before 1.0. Please read
+> [Before you start](#before-you-start) before adding a collection you care about.
 
 ## Features
 
 **The Lightbox**
 - A tray on the right edge of the window. Drag images in from any board, or right-click → **Add to Lightbox**.
 - **Show on screen** floats each image in its own small window above every other app, so it stays in view while you paint, model or design.
-- Drag to move. Drag the corner or scroll to resize, keeping the proportions. Hover for an opacity slider so the work underneath shows through.
+- Drag to move. Drag the corner or scroll to resize, keeping the proportions. Hover for an opacity slider so the work underneath shows through, and for grayscale and flip buttons.
 - **Lock** with the button or **Ctrl+Alt+L** from any app: images stay put and clicks pass straight through to the app underneath.
 
 ![The Lightbox: four reference images floating over Krita while an etching is open on the canvas. One reference is faded so the canvas shows through it](assets/stillroom-lightbox-krita.jpg)
@@ -53,6 +54,8 @@ upload anything, and works offline.
 - Any folder becomes a library; its subfolders are boards. Keep several libraries open at once.
 - Create, rename, move and delete folders from inside Stillroom; the changes happen on disk.
 - Live updates: change files in Explorer and Stillroom catches up. Tags and notes follow files that move inside the library.
+- Drag files in from Explorer, paste with Ctrl+V, or **drag an image straight from a web page**: it's saved into the folder you're viewing, with the page it came from as its Source.
+- Works in **OneDrive, Dropbox, Google Drive and iCloud** folders. Images that are only in the cloud aren't downloaded just to make previews.
 
 **Organize**
 - Tags with suggestions, notes that save as you type, author credits, and favorites.
@@ -60,7 +63,9 @@ upload anything, and works offline.
 - Collections group references from different folders without moving or copying files.
 - Drag items into folders and collections, or drag to arrange them in your own order.
 - Multi-select for bulk tagging and moving, right-click menus, and **Ctrl+Z** to undo.
+- **Drag images out** into Krita, Photoshop, Blender, a chat or a folder: drag a card past the edge of the window, or drag the picture in the viewer.
 - **Copy image** (Ctrl+C) puts the picture on the clipboard, ready to paste into Krita, Photoshop or a chat.
+- **Export library data:** save every tag, note, author, source, favorite and collection to one readable file.
 
 ![A library of engravings and charts: folder tiles, cards with authors and tags, and the sidebar with libraries, collections and tags](assets/stillroom-board.jpg)
 
@@ -78,6 +83,7 @@ upload anything, and works offline.
 **View**
 - A full viewer with zoom, pan, arrow-key browsing and each image's colour palette.
 - **Quick look:** press Space on an image to open it, and Space again to close it.
+- **Grayscale (G) and flip (H)** for checking values and composition.
 - Video playback, with first-frame thumbnails.
 
 ![The viewer: Dürer's Rhinoceros, with its tags, its source link, colour palette and file details on the right](assets/stillroom-viewer-source.jpg)
@@ -115,18 +121,19 @@ available.
 
 ## Before you start
 
-This is a beta, and it works with real files on your disk.
+Stillroom works with real files on your disk.
 
 - **Back up first.** Renaming, moving and deleting in Stillroom changes the real files.
   Keep a copy of any collection you can't replace.
-- **Avoid cloud-synced folders for now.** OneDrive, Dropbox, Google Drive and
-  iCloud can conflict with Stillroom's index while syncing, which can lose tags
-  and notes. Your images stay safe. Network drives carry the same risk.
+- **Cloud folders work; use each library on one PC at a time.** In OneDrive, Dropbox,
+  Google Drive or iCloud, two PCs saving the same library at once can lose tags and
+  notes (never images). Stillroom warns you if a library is already open on another PC.
+  Network drives aren't recommended.
 - **Deleting** from The Cellar moves the file to the Recycle Bin and removes its
   tags and notes. On network drives and some external drives, Windows skips the
   Recycle Bin, so those deletes are permanent.
 - **Updates.** From 0.4.0, Stillroom checks for new versions and installs them when you
-  agree (or use **Settings → Check for updates…**). If you're on 0.3.0, install 0.4.0 once
+  agree (or use **Settings → Check for updates…**). If you're on 0.3.0, install the latest version once
   by hand. Updating always keeps your libraries, tags and notes.
 
 ## FAQ
@@ -152,7 +159,8 @@ MOV and MKV video. Which video codecs play depends on Windows.
 Not yet. Windows comes first, and other platforms may follow.
 
 **Can I use my library on two computers?**
-Not safely yet: see the cloud-sync note above. Proper multi-device support is on the roadmap.
+Yes, through a cloud folder, as long as only one of them has it open at a time. Close
+Stillroom on one PC before opening the library on the other; Stillroom warns you if you forget.
 
 ## Report a bug or suggest a feature
 
