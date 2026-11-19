@@ -3,6 +3,21 @@
 All notable changes to Stillroom. Downloads are on the
 [releases page](https://github.com/remiionline/stillroom-release/releases).
 
+# Stillroom 1.0.0 — 2026-11-18
+
+The first stable release. Everything from the 0.9.0 release candidate, now signed.
+
+## New
+- Stillroom is code-signed: Windows now names the publisher (Jeremy Upward) instead of "Unknown publisher", and Smart App Control no longer blocks it.
+
+## Improved
+- Settings shows the version as "Stillroom 1.0.0".
+
+## Known issues
+- For a while after this release, Windows may still show "Windows protected your PC" until enough people have downloaded the signed version. Click "More info", check that the publisher is Jeremy Upward, then "Run anyway".
+- Some websites don't hand over the image itself when you drag it (only a link). Stillroom then can't save it; save the image first and drop the file instead.
+- Colour search skips images that are only in the cloud until they've been downloaded.
+
 # Stillroom 0.9.0 — 2026-11-09
 
 ## New

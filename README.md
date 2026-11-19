@@ -17,10 +17,10 @@
   <img src="assets/stillroom-hero-dark.jpg" alt="Stillroom: a library of engravings and celestial charts, with folders, tags and collections in the sidebar and four references gathered in the Lightbox tray">
 </picture>
 
-> **New in 0.9.0, the release candidate for 1.0:** drag images out into other apps, drop
-> images in from your browser (with the page saved as their Source), grayscale and flip,
-> export your library data, and libraries in cloud folders. See the [changelog](CHANGELOG.md)
-> for everything.
+> **Stillroom 1.0 is here:** the first stable release, now code-signed. Recently added: drag
+> images out into other apps, drop images in from your browser (with the page saved as their
+> Source), grayscale and flip, export your library data, and libraries in cloud folders. See
+> the [changelog](CHANGELOG.md) for everything.
 
 ---
 
@@ -35,8 +35,8 @@ images stay ordinary files, and you can still open them in Explorer.
 Everything stays on your computer. Stillroom doesn't need an account, doesn't
 upload anything, and works offline.
 
-> **Release candidate:** 0.9.0 is the last step before 1.0. Please read
-> [Before you start](#before-you-start) before adding a collection you care about.
+> Stillroom works with real files on your disk. Please read [Before you start](#before-you-start)
+> before adding a collection you care about.
 
 ## Features
 
@@ -107,13 +107,12 @@ upload anything, and works offline.
 ## Install
 
 1. Download `Stillroom_X.Y.Z_x64-setup.exe` from the [latest release](https://github.com/remiionline/stillroom-release/releases/latest).
-2. Run it. Stillroom isn't code-signed yet, so Windows shows **"Windows protected your PC"**:
-   click **More info**, then **Run anyway**.
+2. Run it. Stillroom is code-signed, and Windows shows the publisher as **Jeremy Upward**.
 3. No admin rights are needed. Stillroom installs just for your user account.
 
-If there's no "Run anyway" option, your PC has **Smart App Control** turned on.
-It blocks unsigned apps, and Stillroom can't run there until a signed version is
-available.
+Because 1.0 is newly signed, Windows may still show **"Windows protected your PC"** for a
+while, until enough people have downloaded it. Click **More info**, check that the publisher
+is Jeremy Upward, then **Run anyway**. Versions before 1.0 were unsigned.
 
 **Requirements:** Windows 10 or 11, 64-bit. Stillroom has so far been tested on Windows 11.
 
