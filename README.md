@@ -1,7 +1,7 @@
 <h1 align="center">Stillroom</h1>
 
 <p align="center">
-  <strong>A quiet, local library for your visual references.</strong><br>
+  <strong>A local library for your visual references.</strong><br>
   Your folders are the boards. Tags, notes and collections on top. Nothing uploaded, no account.
 </p>
 
